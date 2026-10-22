@@ -151,7 +151,7 @@ export const PROJECTS: Project[] = [
       "Enterprise Integration: Engineered seamless API-based integration with existing ERP systems and financial ledgers, ensuring 100% compliance with organizational protocols."
     ],
     technologies: ["Python", "Pandas", "Streamlit", "SQL", "RAG", "Multi-Agent Systems"],
-    githubUrl: "https://github.com/Mukesh631102",
+    githubUrl: "https://github.com/Mukesh631102/Drafting-agent",
     gradient: "linear-gradient(135deg, #1f2738 0%, #171b26 100%)",
     accentColor: "#f3b432"
   },
@@ -169,7 +169,7 @@ export const PROJECTS: Project[] = [
       "High-Throughput Pipeline: Optimized a dual-backend (FastAPI/Node.js) to handle high-frequency data streams, ensuring sub-200ms responsiveness in low-connectivity environments."
     ],
     technologies: ["Python", "FastAPI", "Node.js", "Solidity", "Satellite Telematics", "Smart Contracts"],
-    githubUrl: "https://github.com/Mukesh631102",
+    githubUrl: "https://github.com/Mukesh631102/Agri-Shield-AI",
     gradient: "linear-gradient(135deg, #1c2b29 0%, #151d20 100%)",
     accentColor: "#48bb78"
   },
@@ -187,7 +187,7 @@ export const PROJECTS: Project[] = [
       "High-Throughput API: Designed low-latency endpoints using FastAPI to ingest and transform large tabular data in real time."
     ],
     technologies: ["FastAPI", "Pandas", "Groq LLM", "Data Science", "Python", "Data Visualization"],
-    githubUrl: "https://github.com/Mukesh631102",
+    githubUrl: "https://github.com/Mukesh631102/NeuralInsight",
     gradient: "linear-gradient(135deg, #2b2138 0%, #1c1828 100%)",
     accentColor: "#9f7aea"
   },
@@ -206,7 +206,7 @@ export const PROJECTS: Project[] = [
       "80% Time Reduction: Eliminated manual asset re-keying and reduced documentation review times by 80%, streamlining cross-functional handoffs between Design, Engineering, and Supply Chain."
     ],
     technologies: ["EasyOCR", "PaddleOCR", "PyMuPDF", "OpenCV", "Streamlit", "Python"],
-    githubUrl: "https://github.com/Mukesh631102",
+    githubUrl: "https://github.com/Mukesh631102/OCR-Text-Analyzer",
     gradient: "linear-gradient(135deg, #1e2a30 0%, #141c22 100%)",
     accentColor: "#38bdf8"
   },
@@ -225,7 +225,7 @@ export const PROJECTS: Project[] = [
       "UX Bridge for AI: Bridged the gap between AI backend logic and UI design by creating a frictionless visual interface, accelerating model performance analysis and decision-making turnaround times."
     ],
     technologies: ["PyTorch", "React", "Vercel", "Python", "Neural Network Pruning", "Full-Stack"],
-    githubUrl: "https://github.com/Mukesh631102",
+    githubUrl: "https://github.com/Mukesh631102/AuraPrune-Studio",
     gradient: "linear-gradient(135deg, #2a1f38 0%, #1a1428 100%)",
     accentColor: "#e879f9"
   },
@@ -244,7 +244,7 @@ export const PROJECTS: Project[] = [
       "Workflow & Efficiency Impact: Automated candidate response grading and PDF feedback report generation (ReportLab/FPDF2), cutting initial candidate screening review cycles by 70% for non-technical recruiters."
     ],
     technologies: ["FastAPI", "Whisper STT", "Groq LLM", "ChromaDB", "React", "Python", "ReportLab"],
-    githubUrl: "https://github.com/Mukesh631102",
+    githubUrl: "https://github.com/Mukesh631102/AI-interviewer",
     gradient: "linear-gradient(135deg, #162638 0%, #0f1a26 100%)",
     accentColor: "#38bdf8"
   }
