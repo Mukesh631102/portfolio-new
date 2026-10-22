@@ -70,8 +70,8 @@ export const PERSONAL_INFO = {
     email: "pmukeshshr@gmail.com",
     phone: "+91-9940260285",
     location: "Chennai, India",
-    linkedin: "https://linkedin.com/in/mukesh-p",
-    linkedinHandle: "in/mukesh-p",
+    linkedin: "https://www.linkedin.com/in/mukesh-p-4a3873297/",
+    linkedinHandle: "in/mukesh-p-4a3873297",
     github: "https://github.com/Mukesh631102",
     githubHandle: "Mukesh631102",
     whatsapp: "https://wa.me/919940260285"
@@ -107,6 +107,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "LLM APIs (Groq)", icon: "zap", description: "Low-Latency Autonomous Inference" },
       { name: "OpenCV", icon: "eye", description: "Computer Vision & Preprocessing" },
       { name: "YOLOv8 & ResNet", icon: "layers", description: "Object Detection & Classification" },
+      { name: "Whisper STT", icon: "mic", description: "Real-Time Multimodal Speech Transcription" },
+      { name: "ChromaDB & Vector Stores", icon: "database", description: "Context Retrieval & Embeddings" },
       { name: "Pandas & NumPy", icon: "bar-chart-2", description: "High-Throughput Vectorized Analysis" },
       { name: "Scikit-Learn", icon: "activity", description: "Predictive Modeling & Ensembles" }
     ]
@@ -226,6 +228,25 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/Mukesh631102",
     gradient: "linear-gradient(135deg, #2a1f38 0%, #1a1428 100%)",
     accentColor: "#e879f9"
+  },
+  {
+    id: "ai-interviewer-platform",
+    title: "Autonomous Multimodal AI Interviewer",
+    tagline: "Real-time Whisper STT, Dynamic Groq/OpenAI Evaluation & ChromaDB RAG",
+    date: "2026",
+    category: "AI & Enterprise",
+    featured: true,
+    description: "Engineered an end-to-end multimodal AI interviewer application automating candidate screening via real-time speech-to-text, adaptive questioning, and automated response grading.",
+    bullets: [
+      "System Architecture & Pipeline: Engineered an end-to-end AI interviewer application using FastAPI, OpenAI/Groq LLMs, and Whisper STT to automate candidate screening through real-time speech-to-text transcription and adaptive dynamic questioning.",
+      "Context Awareness & Prompt Logic: Developed a retrieval-augmented context engine (RAG via ChromaDB) that parses job descriptions (JDs) and candidate resumes to generate context-aware technical evaluation questions on the fly.",
+      "Visual Dashboard & Analytics: Built a responsive web dashboard utilizing React/Streamlit that visualizes real-time candidate speech confidence, sentiment scores, and key competency matches across customizable radar charts and scorecards.",
+      "Workflow & Efficiency Impact: Automated candidate response grading and PDF feedback report generation (ReportLab/FPDF2), cutting initial candidate screening review cycles by 70% for non-technical recruiters."
+    ],
+    technologies: ["FastAPI", "Whisper STT", "Groq LLM", "ChromaDB", "React", "Python", "ReportLab"],
+    githubUrl: "https://github.com/Mukesh631102",
+    gradient: "linear-gradient(135deg, #162638 0%, #0f1a26 100%)",
+    accentColor: "#38bdf8"
   }
 ];
 

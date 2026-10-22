@@ -1015,6 +1015,12 @@
   color: #f0abfc;
 }
 
+.node-interviewer {
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid #38bdf8;
+  color: #7dd3fc;
+}
+
 .mockup-arrow {
   color: var(--text-muted);
   font-size: 0.8rem;

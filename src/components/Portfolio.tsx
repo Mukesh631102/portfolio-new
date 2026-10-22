@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, ChevronRight, X, Layers, Cpu, ShieldCheck, FileText, Sliders } from 'lucide-react';
+import { ExternalLink, ChevronRight, X, Layers, Cpu, ShieldCheck, FileText, Sliders, Mic } from 'lucide-react';
 import { PROJECTS } from '../data/portfolioData';
 import type { Project } from '../data/portfolioData';
 import { GitHubIcon } from './SocialIcons';
@@ -130,6 +130,21 @@ export const Portfolio: React.FC<PortfolioProps> = ({ searchQuery = '' }) => {
                       <span className="mini-chip">PyTorch Pruning</span>
                       <span className="mini-chip">Sparsity L1</span>
                       <span className="mini-chip">Vercel UI</span>
+                    </div>
+                  </div>
+                )}
+
+                {project.id === 'ai-interviewer-platform' && (
+                  <div className="mockup-diagram">
+                    <div className="mockup-node node-interviewer">
+                      <Mic size={16} />
+                      <span>Multimodal Interviewer</span>
+                    </div>
+                    <div className="mockup-arrow">↓</div>
+                    <div className="mockup-row">
+                      <span className="mini-chip">Whisper STT</span>
+                      <span className="mini-chip">ChromaDB RAG</span>
+                      <span className="mini-chip">Groq / OpenAI</span>
                     </div>
                   </div>
                 )}

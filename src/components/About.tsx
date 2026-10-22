@@ -42,7 +42,7 @@ export const About: React.FC = () => {
             </div>
             <div className="photo-stat-divider" />
             <div className="photo-stat-item">
-              <span className="photo-stat-value">5+</span>
+              <span className="photo-stat-value">6+</span>
               <span className="photo-stat-label">Projects</span>
             </div>
             <div className="photo-stat-divider" />
